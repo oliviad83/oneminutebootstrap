@@ -1,0 +1,110 @@
+body {
+   padding-top: 50px;
+   background-color: black;
+ }
+ 
+ h1 {
+     text-align: center;
+ }
+ 
+ p {
+     text-align: center;
+     padding-right: 20px;
+     padding-left: 20px;
+     margin-top: 20px;
+     margin-bottom: 0px;
+ }
+ div img {position: absolute;
+     top: 110%;
+     left: 40%;
+     right:40%;
+     }
+     h1 {text-align: center;
+         color: white;}
+ div {
+     text-align: center 
+     color:white;
+ }
+ section {
+     /* Allow scrollspy to work without fixed navbar getting in the way of top line*/
+     padding-top: 50px;
+     margin-top: -50px;
+     margin-bottom: -100px;
+ }
+ 
+/* Last section can't have negative bottom margin */
+ 
+ .last-section {
+     margin-bottom: 0px;
+ }
+ 
+ /*-----------------------------------------------------------------*/
+ 
+ .jumbotron {
+     background-image: url('../images/background.jpg');
+     background-size: cover;
+     text-align: center;
+     background-position: center;
+     color: white;
+     margin-bottom: 0px;
+ }
+ 
+ .hero {
+     background: rgba(0, 0, 0, 0.5);
+     border-radius: 0px;
+     padding: 0px;
+ }
+ 
+ .hero p {
+     text-align: center
+ }
+ 
+ .jumbotron input {
+     color: darkgrey;
+     margin: 0px;
+ }
+ 
+ .twitter-share-button {
+     width: 77px;
+ }
+ 
+ .smoke {
+     background-color: white;
+ }
+ 
+ .wrapper {
+     min-height: 100%;
+     height: auto !important;
+     height: 100%;
+    margin: 0 auto -100px; /* same as the footer */
+ }
+ 
+ .wrapper .container {
+         margin-bottom: 50px; /* deals with mobiles */
+ }
+  
+ .push {
+     height: 50px; /* same as the footer */
+ }
+ .footer-wrapper {
+     position: relative;
+     height: 50px;
+ }
+ 
+ /*-----------------------------------------------------------------*/
+ 
+ /* The styling for your footer */
+ 
+ footer {
+     width: 100%;
+    /*Do not change the height as it's part of the sticky footer*/
+    height: 40px;
+     background-color: black;
+     border-top: 0px solid black;
+     padding-top: 0px;
+     margin-top: 55px;
+     text-align: center;
+     color: white;
+     padding-left: 20px;
+     padding-right: 50px;
+ }
